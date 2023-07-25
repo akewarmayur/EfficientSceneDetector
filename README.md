@@ -1,12 +1,23 @@
 # EfficientSceneDetector
-A python package for detecting scenes from a video using audio features.
-The generated scenes should be with different context.
-## Quick Start
+A python package for detecting scenes from a video using audio features. The generated scenes should be with different context.
+
+### Installation
+```
+pip install -i https://test.pypi.org/simple/ EfficientSceneDetector==0.0.12
+```
+## Quick Start (Python Code)
 ```
 from EfficientSceneDetector.sceneDetection import SceneDetection
 objScene = SceneDetection()
 objScene.detect_scenes("input_video.mp4", 4, "True")
 ```
+
+## Quick Start (Comman Line)
+```
+python main.py -i "input_video.mp4" -w 4 -s "True"
+python main.py --input_video "input_video.mp4" ---window 4 --save_scenes "True"
+```
+
 #### Details
 * input_video.mp4 : your input video path.
 * 4 : size of window to be considered while generating scenes. If window is large then large scenes could be generated. If the window size is small then small scenes could be generated
@@ -24,10 +35,14 @@ objScene.detect_scenes("input_video.mp4", 4, "True")
 * EndTime (TimeStamp) : End time of a scene in "%d:%02d:%02d" format.
 * Path : Path of generated scenes.
 
+# PIP
+```
+https://test.pypi.org/project/EfficientSceneDetector/0.0.12/
+```
+
 # Help & Contributing
 Please submit any bugs/issues or feature requests to the Issue Tracker. Before submission, ensure you search through existing issues (both open and closed) to avoid creating duplicate entries. Pull requests are welcome and encouraged. 
 
-# Repository
-```
-https://github.com/akewarmayur/EfficientSceneDetector
-```
+# License
+MIT License
+Copyright (C) 2023 Mayur Akewar. All rights reserved.
