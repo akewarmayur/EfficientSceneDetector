@@ -3,7 +3,7 @@ A python package for detecting scenes from a video using audio features. The gen
 
 ### Installation
 ```
-pip install -i https://test.pypi.org/simple/ EfficientSceneDetector==0.0.12
+pip install EfficientSceneDetector==0.0.12
 ```
 ## Quick Start (Python Code)
 ```
@@ -35,9 +35,9 @@ python main.py --input_video "input_video.mp4" ---window 4 --save_scenes "True"
 * EndTime (TimeStamp) : End time of a scene in "%d:%02d:%02d" format.
 * Path : Path of generated scenes.
 
-# PIP
+## PIP (pypi.org)
 ```
-https://test.pypi.org/project/EfficientSceneDetector/0.0.12/
+https://pypi.org/project/EfficientSceneDetector/0.0.12/
 ```
 
 # Help & Contributing
