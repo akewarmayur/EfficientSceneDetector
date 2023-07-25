@@ -45,4 +45,5 @@ Please submit any bugs/issues or feature requests to the Issue Tracker. Before s
 
 # License
 MIT License
+
 Copyright (C) 2023 Mayur Akewar. All rights reserved.
