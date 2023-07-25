@@ -12,7 +12,7 @@ objScene = SceneDetection()
 objScene.detect_scenes("input_video.mp4", 4, "True")
 ```
 
-## Quick Start (Comman Line)
+## Quick Start (Command Line)
 ```
 python main.py -i "input_video.mp4" -w 4 -s "True"
 python main.py --input_video "input_video.mp4" ---window 4 --save_scenes "True"
